@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+
+# CNN corpus (download separately)
+data/db3/
+
+# Individual summary text files
+data/summaries_chatgpt/
+data/summaries_deepseek/
+data/summaries_gemini/
+
+# LLM response cache
+cache/
+
+# Regenerable evaluation outputs
+results/evaluation/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

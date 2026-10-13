@@ -1,0 +1,33 @@
+[project]
+name = "newsclf_masterproject"
+version = "0.1.0"
+description = "LLM as text classifier — MSc research (UFPE)"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "openai",
+    "anthropic",
+    "google-genai",
+    "python-dotenv",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

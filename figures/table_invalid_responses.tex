@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\caption{Invalid responses by model and method, including the uniform responses of the percent-distribution method (12,000 calls per method and model).}\label{tab:invalid-responses}
+\centering
+\begin{tabular}{llrrl}
+\toprule
+\textbf{Model} & \textbf{Method} & \textbf{Invalid} & \textbf{Total} & \textbf{Rate} \
+\midrule
+ChatGPT  & Single (out-of-taxonomy)   &  38 & 12,000 & 0.32\% \
+ChatGPT  & Percent (uniform, $k\ge6$) & 138 & 12,000 & 1.15\% \
+ChatGPT  & \textbf{Combined}          & \textbf{176} & \textbf{24,000} & \textbf{0.73\%} \
+\midrule
+DeepSeek & Single (out-of-taxonomy)   &   0 & 12,000 & 0.00\% \
+DeepSeek & Percent (uniform, $k\ge6$) &   5 & 12,000 & 0.04\% \
+DeepSeek & \textbf{Combined}          & \textbf{5} & \textbf{24,000} & \textbf{0.02\%} \
+\midrule
+Gemini   & Single (out-of-taxonomy)   &   1 & 12,000 & 0.01\% \
+Gemini   & Percent (uniform, $k\ge6$) &   2 & 12,000 & 0.02\% \
+Gemini   & \textbf{Combined}          & \textbf{3} & \textbf{24,000} & \textbf{0.01\%} \
+\bottomrule
+\end{tabular}
+\end{table}
