@@ -72,7 +72,7 @@ EXAMPLES_BY_CATEGORY: dict[str, str] = {
     "Computer and Internet": "facebookswhatsappaddingvoicecalls",
     "Economy and Finance": "cypriotdisastrousdecisionhowtoturnadramaintoacrisis",
     "Education": "pakistaniteeninspiresotherstofightforeducation",
-    "Employment and Work": "ukpolicearrest4onsuspicionofsyrialinkedterroroffenses",
+    "Employment and Work": "unemploymentineuropeisthereasolution", # do Ihago: "ukpolicearrest4onsuspicionofsyrialinkedterroroffenses"  (top-1 ponderado: Society and Culture)
     "Entertainment": "facebookaddsnewwaytotagupdatesaboutmusictv",
     "Food and Beverage": "poshnycrestaurantroastedbyhealthinspectors",
     "Games": "curitibastadiumretainsworldcupstatus",
@@ -83,7 +83,7 @@ EXAMPLES_BY_CATEGORY: dict[str, str] = {
     "Society and Culture": "missingamericanjournalistsparentssendoursonhomefromsyriaforchristmas",
     "Sports": "barcelonaboostedbytitovilanovareturn",
     "Travel": "toplesstravelphotoslatesttravelrage",
-    "Weather": "climatechangecouldcost100billionayear",
+    "Weather": "packing105mphwindshurricanecarlottabearsdownonmexicocoast", # do Ihago: "climatechangecouldcost100billionayear"  (top-1 ponderado: Government and Politics)
 }
 
 
