@@ -15,6 +15,9 @@ cache/
 # Regenerable evaluation outputs
 results/evaluation/
 
+# Generated LaTeX thesis snippets (regenerable)
+thesis/
+
 # Python
 __pycache__/
 *.pyc
